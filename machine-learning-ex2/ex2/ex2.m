@@ -24,7 +24,7 @@ clear ; close all; clc
 %  contains the label.
 
 data = load('ex2data1.txt');
-X = data(:, [1, 2]); y = data(:, 3);
+X = data(:, [1, 2]); y = data(:, 3); %keep first two columns in X asn the prediction in y
 
 %% ==================== Part 1: Plotting ====================
 %  We start the exercise by first plotting the data to understand the
